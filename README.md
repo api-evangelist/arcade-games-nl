@@ -1,4 +1,4 @@
-# arcade-games-nl
+# Mind Arcade
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,136 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-arcade-games-nl is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://arcade-games.nl/
+Mind Arcade is an online playground offering six free browser puzzle games that blend human curiosity with AI challenges. Players can explore a 3D constellation puzzle prototype, tackling deduction, circuit optimization, strategy, planning, pattern recognition, and pathfinding. The platform also provides an Agent Game API (openapi.json) enabling developers to integrate game data and AI-driven interactions into their applications.
+
+**Areas:** Company · Gaming · Puzzle · AI · Browser · API
+
+## Mind Arcade on APIs.io
+
+Everything profiled for Mind Arcade is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/arcade-games-nl/](https://apis.io/providers/arcade-games-nl/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [Mind Arcade Activity API](https://apis.io/apis/arcade-games-nl/arcade-games-nl-activity-api/) — The Activity API from Mind Arcade — 1 operation(s) for activity.
+- [Mind Arcade Agents API](https://apis.io/apis/arcade-games-nl/arcade-games-nl-agents-api/) — The Agents API from Mind Arcade — 13 operation(s) for agents.
+- [Mind Arcade Insights API](https://apis.io/apis/arcade-games-nl/arcade-games-nl-insights-api/) — The Insights API from Mind Arcade — 1 operation(s) for insights.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Arcade Games Nl Agentic Access](https://apis.io/agentic-access/arcade-games-nl/arcade-games-nl-agentic-access/)
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [ChannelInsights](https://apis.io/schemas/arcade-games-nl/arcade-games-nl-channel-insights/)
+- [Move](https://apis.io/schemas/arcade-games-nl/arcade-games-nl-move/)
+- [PlayerProfile](https://apis.io/schemas/arcade-games-nl/arcade-games-nl-player-profile/)
+- [Score](https://apis.io/schemas/arcade-games-nl/arcade-games-nl-score/)
+- [State](https://apis.io/schemas/arcade-games-nl/arcade-games-nl-state/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Arcade Games Nl Context](https://apis.io/jsonld/arcade-games-nl/arcade-games-nl-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Mind Arcade API Rules](https://apis.io/rules/arcade-games-nl/arcade-games-nl-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Arcade Games Nl Authentication](https://apis.io/security/arcade-games-nl/arcade-games-nl-authentication/)
+- [Arcade Games Nl Domain Security](https://apis.io/security/arcade-games-nl/arcade-games-nl-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Arcade Games Nl Scopes](https://apis.io/scopes/arcade-games-nl/arcade-games-nl-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Arcade Games Nl Plans Pricing](https://apis.io/plans/arcade-games-nl/arcade-games-nl-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Arcade Games Nl Rate Limits](https://apis.io/rate-limits/arcade-games-nl/arcade-games-nl-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://arcade-games.nl/)
+- [Documentation](https://arcade-games.nl/openapi.json)
+
+## API Evangelist rating
+
+**Kin Score 37.0** — thin · rubric 0.26.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 53.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 35.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 31.9** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/arcade-games-nl/](https://apis.io/providers/arcade-games-nl/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Mind Arcade: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/arcade-games-nl/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
